@@ -196,7 +196,7 @@ options选项：
     * thumbImage 缩略图地址
     * scene 场景(0:聊天界面，1:朋友圈，2:收藏)
 
-- wechatPay(payOptions, callback)分享链接内容给微信
+- wechatPay(payOptions, callback)调用微信支付请求参数
 payOptions：
     * appId：应用ID
     * nonceStr 随机字符串
@@ -205,8 +205,8 @@ payOptions：
     * packageValue 扩展字段
     * timeStamp 时间戳
     * sign 签名
-参考：
-* https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_12&index=2 
+
+* ref: https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_12&index=2 
 
 ## 事件，通过订阅事件获取操作结果
 ### didRecvAuthResponse
